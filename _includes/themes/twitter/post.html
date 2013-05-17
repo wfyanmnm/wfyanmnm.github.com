@@ -60,6 +60,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
       </ul>
     </div>
     <hr>
+<script type="text/javascript" id="wumiiRelatedItems"></script>
     <!-- Duoshuo Comment BEGIN -->
 	<div class="ds-thread"></div>
 <script type="text/javascript">
@@ -76,6 +77,17 @@ var duoshuoQuery = {short_name:"fushikai"};
 <!-- Duoshuo Comment END -->
   </div>
 </div>
+<script type="text/javascript">
+    var wumiiPermaLink = "{{site.production_url}}{{page.url}}"; //请用代码生成文章永久的链接
+    var wumiiTitle = "{{page.title}}"; //请用代码生成文章标题
+    var wumiiTags = "{% for tag in page.tags %} {{tag}}, {% endfor %}"; //请用代码生成文章标签，以英文逗号分隔，如："标签1,标签2"
+    var wumiiSitePrefix = "http://fushikai.me/";
+    var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
+</script>
+<script type="text/javascript" src="http://widget.wumii.cn/ext/relatedItemsWidget"></script>
+<a href="http://www.wumii.com/widget/relatedItems" style="border:0;">
+    <img src="http://static.wumii.cn/images/pixel.png" alt="无觅相关文章插件，快速提升流量" style="border:0;padding:0;margin:0;" />
+</a>
 <script>
     (function(d, t) {
     var g = d.createElement(t),
