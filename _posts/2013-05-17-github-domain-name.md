@@ -3,7 +3,7 @@ layout: post
 title: "github page绑定独立域名"
 description: "github page使用godaddy域名"
 category: blog
-tags: [godaddy,github]
+tags: [godaddy, github]
 ---
 看到[webfrogs](http://webfrogs.me/)的博客绑定的独立域名，我也想搞一个。
 
