@@ -3,7 +3,7 @@ layout: post
 title: "在jekyll中使用cnzz和多说"
 description: "修改模板解决"
 category: blog
-tags: [cnzz 多说]
+tags: [cnzz,多说]
 ---
 CNZZ和多说都是使用javascript调用，所以只要想办法把代码加到页面的合适位置就可以。
 ## 加入cnzz
