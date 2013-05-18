@@ -21,7 +21,7 @@
 document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
 </script>
 <!-- Baidu Button END -->
-      <span>{{ page.date | date_to_long_string }}</span>  <g:plusone></g:plusone>
+      <span>{{ page.date | date_to_long_string }}</span> 
     </div>
     <div class="content">
       {{ content }}
@@ -88,12 +88,3 @@ var duoshuoQuery = {short_name:"fushikai"};
 <a href="http://www.wumii.com/widget/relatedItems" style="border:0;">
     <img src="http://static.wumii.cn/images/pixel.png" alt="无觅相关文章插件，快速提升流量" style="border:0;padding:0;margin:0;" />
 </a>
-<script>
-    (function(d, t) {
-    var g = d.createElement(t),
-    s = d.getElementsByTagName(t)[0];
-    g.async = true;
-    g.src = 'https://apis.google.com/js/plusone.js';
-    s.parentNode.insertBefore(g, s);
-    })(document, 'script');
-</script>
