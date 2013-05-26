@@ -12,6 +12,7 @@ tags: [godaddy, github]
 在stack overflow上边搜到[一篇文章](http://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages)，照着这个把域名解析完成。
 
 **操作如下**
+
 1. 在项目根目录下建一个`CNAME`文件，内容为自己的域名`fushikai.me`
 2. 在godaddy中添加两条记录，把`@`改成`204.232.175.78`，添加A记录`www`地址`204.232.175.78`
 
