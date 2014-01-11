@@ -44,6 +44,7 @@ tags: [公交]
     $('title').html(data.times[0].howLong+'分钟 '+data.times[0].howFar+'米');
 
 是我自己加的，就是把网页的标题改成还有几分钟，几米到
+
 最后再加上自动执行的代码
 
     $('title').html('开始监测!');
